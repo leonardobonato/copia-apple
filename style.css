@@ -1,0 +1,156 @@
+* {
+
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgiphone {
+    width: 300px;
+    position: absolute;
+    margin-top: 100px;
+    z-index: 2;
+    /*DEFINE QUEM FICA NA FRENTE DE QUEM, SÓ FUNCIONA COM ELEMENTOS COM POSIÇÃO DEFINIDA*/
+    margin-left: 200px;
+}
+
+.maça {
+
+    width: 20px;
+
+}
+
+.menusuperior {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    /*alinhar ao centro*/
+    border-bottom: 1px solid #d3d3d3;
+}
+
+ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    /* pra tirar a bolinha do ul */
+    margin-left: 100px;
+}
+
+li {
+
+    font-size: 12px;
+    font-weight: 400px;
+    color: #373737;
+}
+
+.caixa-azul {
+    float: left;
+    margin-top: 50px;
+    padding: 50px;
+
+}
+
+.titulo-iphone {
+
+    font-size: 30px;
+}
+
+.poderoso {
+
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tamanho-perfeito {
+
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.preco {
+
+    font-size: 20px;
+    color: #626262;
+    font-weight: 300;
+    margin-bottom: 30px;
+
+}
+
+.botao {
+
+    background-color: #0071e3;
+    color: #ffffff;
+    border: none;
+    /*BORDA ESCURA QUE FICA POR FORA DO BOTAO*/
+    padding: 15px;
+    /*BORDA INTERNA DA CAIXA*/
+    border-radius: 40px;
+    /*PARA ARREDONDAR A BORDA DO BOTAO*/
+    cursor: pointer;
+    /*PARA QUANDO O CURSOR PASSAR TROCAR ELE*/
+    margin-top: 25px;
+}
+
+.troca-cor {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.escolha-cor {
+
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 700px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.azul {
+    background-color: #81a5c4;
+
+}
+
+.amarelo {
+
+    background-color: #f7da47;
+}
+
+.branco {
+
+    background-color: #c1c1c1;
+}
+
+.preto {
+
+    background-color: #272d33;
+}
+
+.vermelho {
+
+    background-color: #b50012;
+}
+
+.roxo {
+
+    background-color: #ede7f1;
+}
+
+.circulo {
+
+    width: 100%;
+    height: 100%;
+    background: #81a5c4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 1000px);
+    /*RECORTAR NO FORMATO QUE EU QUERO*/
+
+}
